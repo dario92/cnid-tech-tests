@@ -1,0 +1,97 @@
+/* Helpers */
+.serif {
+  font-family: 'Lusitana', serif;
+}
+
+.light {
+  font-weight: lighter;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* Global styles */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 499px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+/* Header */
+
+.main-header__title {
+  margin: 1em 0 2em;
+  text-decoration: none;
+}
+
+.main-header__title a {
+  color: #333;
+  text-decoration: none;
+}
+
+
+/* Card */
+.card {
+  margin-bottom: 50px;
+  overflow: hidden;
+  border: solid 1px #ddd;
+
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+
+  -webkit-transition: -webkit-box-shadow .3s ease-in-out;
+  -moz-transition: -moz-box-shadow .3s ease-in-out;
+  transition: box-shadow .3s ease-in-out;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 0 10px #ccc;
+  -moz-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.card > a {
+  text-decoration: none;
+  color: #333;
+
+  -webkit-transition: color .5s ease-in-out;
+  -moz-transition: color .5s ease-in-out;
+  transition: color .5s ease-in-out;
+}
+
+.card:hover > a {
+  color: #666;
+}
+
+.card__title {
+  padding: 20px;
+  font-family: 'Lusitana', serif;
+  font-size: 1.5em;
+}
+
+/* Article */
+.article__cover {
+  max-width: 100%;
+}
+
+blockquote {
+  border-left: solid 5px #ddd;
+  color: #888;
+  margin: 0;
+  padding-left: 1.5em;
+}

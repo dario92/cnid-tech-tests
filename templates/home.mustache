@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Conde Nast Tech Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Lusitana" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <head class="main-header">
+      <div class="container">
+        <h2 class="main-header__title serif">
+          <a href="/" title="Home">Conde Nast Tech Test</a>
+        </h2>
+      </div>
+    </head>
+
+    <section>
+      <div class="container">
+        {{#articles}}
+          <article class="card">
+            <a href="/article/{{id}}">
+              <div>
+                <img src="{{cover}}" alt="{{title}}">
+              </div>
+              <div class="card__title">
+                <span>{{title}}</span>
+              </div>
+            </a>
+          </article>
+        {{/articles}}
+      </div>
+    </section>
+  </body>
+</html>
