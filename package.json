@@ -18,7 +18,9 @@
     "type": "git",
     "url": "git+https://github.com/conde-nast-international/cnid-interview.git"
   },
-  "keywords": [],
+  "keywords": [
+    "Dari Goutto <dario.goutto@gail.com>"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
