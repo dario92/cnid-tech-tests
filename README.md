@@ -11,10 +11,8 @@ CONDE NAST INTERNATIONAL TECHNICAL TEST
 * cd in project folder: ```cd cnid-tech-tests```
 * Install all dependencies: ```npm install```
 
-P.S. Tested on node v6.6.0
-
 ## 🚀 <a name="launching">Launching</a>
-* Run ```npm start```
+* Run ```npm start``` (The project was tested on node v6+)
 * Go to URL [http://localhost:3000/](http://localhost:3000/)
 
 ## 💪 <a name="unit-testing">Unit Testing</a>
